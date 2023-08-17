@@ -1,0 +1,29 @@
+.navbar-nav {
+  display: flex !important;
+  height: 96px !important;
+  padding: 24px 88px !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  background: var(--surface-action-1, #FF153E) !important;
+
+  .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    font-size: 70px;
+    color: white;
+ 
+  }
+
+  .icone {
+    font-size: 50px;
+    cursor: pointer;
+    justify-content: flex-end;
+    color: white;
+
+    &:hover {
+      background-color: #BF102F;
+    }
+  }
+}
